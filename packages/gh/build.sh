@@ -21,6 +21,7 @@ termux_step_make() {
 	cd "$GOPATH"/src/github.com/cli/cli/cmd/gh
 	go get -d -v
 	go build
+	
 }
 
 termux_step_make_install() {
